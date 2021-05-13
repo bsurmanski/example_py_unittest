@@ -1,0 +1,10 @@
+CREATE TABLE users (
+	id INTEGER,
+	username TEXT
+);
+
+CREATE TABLE posts (
+	id INTEGER,
+	author_id INTEGER,
+	body TEXT
+);
